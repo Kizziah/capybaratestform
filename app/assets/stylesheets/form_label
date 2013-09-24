@@ -2,8 +2,11 @@
 	<h1>Sign Up</h1>
 	<div id="holder">
 		<form id="basicinfo">
-			First name: <input type="text" name="firstname" aria-label="Hello"><br>
+			<label>First name:</label> <input type="text" name="firstname"
+			placeholder="First Name">
+			<br>
 			Last name: <input type="text" name="lastname"><br>
+
 			Phone Number: <input type="text" name="phonenumber"><br>
 			Email: <input type="text" name="email"><br>
 			<input type="radio" name="sex" value="male">Male<br>
@@ -12,3 +15,4 @@
 		</form>
 	</div>
 </div>
+
