@@ -4,4 +4,4 @@
 
 jQuery ->
 
-  # $("input:first").mask "999-999-9999"
+  $("input:first").mask "999-999-9999"

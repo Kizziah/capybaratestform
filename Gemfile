@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',          '3.2.8'
 gem 'devise',         '~> 2.1.2'
-gem 'nokogiri' 
+gem 'nokogiri'
 gem 'pg',             '~> 0.15.1'
 gem 'jquery-rails',   '~> 2.2.1'
 gem 'haml-rails',     '~> 0.4'
