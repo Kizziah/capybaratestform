@@ -21,6 +21,7 @@ header
 	background: white
 
 form#basicinfo
+	font-family: Arial, Helvetica, sans-serif
 	padding-top: 40px
 	width: 500px
 	background: whitesmoke
@@ -28,17 +29,27 @@ form#basicinfo
 
 h4
 	text-align: center
-
+	padding: 10px
 
 .info
 	margin: 10px
 input
+	border: #CCC 1px solid
+	padding: 3px
+	float: right
+	margin-right: 120px
+
+select
 	height: 18px
 	float: right
-	margin-right: 251px
-
+	margin-right: 120px
+	width: 122px
 label
 	font-size: 16px
+
+.submit_button
+	margin-top: 50px
+	@include button(#B6C509)
 
 // input[type="submit"]
 // 	margin-top: 20px

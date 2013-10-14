@@ -2,23 +2,42 @@
 	<div id="holder">
 		<h4>Open a Free Account Today</h4>
 		<form id="basicinfo">
-
 			<div class="info">
 				<label for="firstname">First Name</label>
-				<input type="text" name="firstname" placeholder="First Name">
+				<input type="text" name="firstname">
 			</div>
 			<div class="info">
 				<label for="lastname">Last Name</label>
-				<input type="text" name="lastname" placeholder="Last Name">
+				<input type="text" name="lastname">
 			</div>
 			<div class="info">
 				<label for="phonenumber">Phone</label>
-				<input type="text" name="phonenumber" placeholder="Phone Number">
+				<input type="text" name="phonenumber">
 			</div>
 			<div class="info">
 				<label for="email">Email</label>
-				<input type="text" name="email" placeholder="Email">
+				<input id="email" type="text" name="email">
 			</div>
+			<div class="info">
+				<label for="job">Job</label>
+				<select name="job" id="job">
+				<option value="1">Finance</option>
+				<option value="2">Marketing</option>
+				<option value="2">IT</option>
+				</select>
+			</div>
+			<div class="info">
+				<label for="password">Password</label>
+				<input type="password" name="password">
+			</div>
+
+			<div class="info">
+				<label for="passwordconfirmation">Confirm Password</label>
+				<input type="password" name="passwordconfirmation">
+			</div>
+
+			<input class="submit_button" type="submit" name="submitButton" id="submitButton" value="Register">
+
 		</form>
 	</div>
 </div>
